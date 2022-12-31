@@ -1,0 +1,80 @@
+/*
+ Home Page
+ */
+.home-text:h1 {
+  color: wheat;
+}
+h6 {
+  color: wheat;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+.home-text {
+  color: wheat;
+  text-shadow: 5px 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+.boxes {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 10px;
+}
+
+/*
+   Grids
+   */
+.grid-container {
+  display: flexbox;
+  grid-template-columns: auto auto auto;
+
+  width: 50%;
+  margin: auto;
+}
+
+.grid-item {
+  background-color: rgb(106, 0, 255);
+  box-shadow: -3px 5px 20px rgb(0, 0, 0);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+/* Text Headers
+*/
+
+.header-name,
+a {
+  color: wheat;
+  white-space: nowrap;
+  overflow: auto;
+  text-overflow: clip;
+}
+
+.header-info {
+  color: wheat;
+  opacity: 0.5;
+  white-space: nowrap;
+  overflow: auto;
+  text-overflow: clip;
+}
+
+.header-image {
+  border-radius: 10px;
+  box-shadow: -3px 5px 20px rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}

@@ -1,0 +1,66 @@
+
+/*
+ Home Page
+ */
+ .desc-p{
+  color: wheat;
+ }
+.home-text {
+  color: wheat;
+  text-shadow: 5px 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+.boxes {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 10px;
+}
+
+/*
+ Grids
+ */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(106, 0, 255);
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+.discord-text{
+  color: white;
+  text-shadow: 5px 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.grid-item {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.text{
+  position: relative;
+  left: 25%;
+  top: 10%;
+}
+
+.discord-widget {
+  box-shadow: 1rem 1rem 5rem black;
+  top: 5rem;
+  display: flex;
+  position: relative;
+  margin: auto;
+}
