@@ -31,8 +31,7 @@ h6 {
 .grid-container {
   display: flexbox;
   grid-template-columns: auto auto auto;
-
-  width: 50%;
+  width: 35rem;
   margin: auto;
 }
 
@@ -45,6 +44,7 @@ h6 {
   margin: auto;
   width: auto;
   height: auto;
+
 }
 
 /* Text Headers
@@ -77,4 +77,14 @@ a {
 
 a:hover {
   color: red;
+}
+
+@media screen and (max-width: 559px) {
+  .grid-container {
+    display: flexbox;
+    grid-template-columns: auto auto auto;
+  
+    width: 90%;
+    margin: auto;
+  }
 }
